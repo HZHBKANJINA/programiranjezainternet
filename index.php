@@ -12,8 +12,26 @@
   </head>
   <body>
   <?php
-    echo "My first PHP script!";
+    $test='Testna varijabla';
+    echo $test;
     ?>
+
+
+  <html>
+  <body>
+
+  <form method="post">
+      Name: <input type="text" name="name"><br>
+      E-mail: <input type="text" name="email"><br>
+      <input type="submit">
+  </form>
+
+  <?php
+        var_dump($_POST);
+  ?>
+
+  </body>
+  </html>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
